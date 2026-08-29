@@ -1,0 +1,144 @@
+[smb1mario]
+name=Miku
+
+icon speed=6
+icon loop=yes
+animation speed=1.0
+center x=16
+center y=18
+box width=33
+box height=34
+
+pole center offset=8
+victory duration=0
+time until wait=0
+pipe squish=0
+
+sheet splits=0
+sheet split size=0
+
+max sizes=7
+
+
+
+======= SMB1 SETTINGS ================================
+======================================================
+
+----- "waitanim" decides whether the skin should enable the "wait" animation -----
+^^ this is a true/false (1/0) value
+waitanim=0
+
+----- "runanim" decides whether the skin has a running animation (being called "maxrun") or not -----
+^^ this is a true/false (1/0) value
+runanim=0
+
+----- "djanim" decide whether the skin should enable the "doublejump" animation (used for feather) -----
+^^ these are true/false (1/0) values
+djanim=0
+
+----- "fallanim" and "fallinsteadofairwalk" decide whether the skin should allow for the use of fall animations -----
+^^ these are true/false (1/0) values
+fallanim=0
+fallinsteadofairwalk=0
+
+----- "bonkanim" decides whether the skin should allow for the use of the "bonk" animation -----
+^^ these are true/false (1/0) values
+bonkanim=0
+
+----- "switchfireanims" allows you to use seperate animations for firing with the fire flower (smb1 style), essentially allowing you to do stuff like smb1's hand raised while still playing the lower half of the walk animation -----
+^^ this is a true/false (1/0) value
+switchfireanims=1
+
+----- "tauntanim" decides whether the skin should allow for the use of the taunt button C (sprite used is called "taunt") -----
+^^ this is a true/false (1/0) value, when C is pressed, a random frame of the sprite will show
+tauntanim=0
+
+----- "palettemode" decides whether to use SMB1mario's Star palette system or not -----
+^^ "SMB1MARIO" uses the Star palette system, "REGULAR" ignores that and uses the normal system
+palettemode=SMB1MARIO
+
+======================================================
+
+
+
+use paletting=true
+defaultspray 1=0
+
+single sheet=true
+singlesheet split width=8,371,371,371,371,8,8,8
+singlesheet split height=0,0,0,0,0,0,0,0
+
+custom sprite list=stand,crouch,walk,run,skid,jump,dead,flagslide,climb,swim,paddle,fire,grow,taunt,run-fire,skid-fire,jump-fire,swim-fire,paddle-fire
+
+reroute lookup=stand
+reroute pose=stand
+reroute maxrun=run
+reroute doublejump=jump
+reroute fall=jump
+reroute bonk=jump
+reroute piping=stand
+reroute pipingup=stand
+reroute sidepiping=run
+reroute doorenter=stand
+reroute doorexit=stand
+
+stand frames=1
+crouch frames=1
+walk frames=1
+run frames=4
+skid frames=1
+jump frames=1
+dead frames=1
+flagslide frames=2
+climb frames=2
+swim frames=2
+paddle frames=5,6,6,6,6,5,5,5
+grow frames=1
+taunt frames=2
+run-fire frames=4
+skid-fire frames=1
+jump-fire frames=1
+swim-fire frames=2
+paddle-fire frames=5,6,6,6,6,5,5,5
+
+paddle loop=1
+run loop=2
+paddle-fire loop=1
+run-fire loop=2
+
+run frametimes=0.1,1,1,1
+run-fire frametimes=0.1,1,1,1
+
+stand speed=0.2
+crouch speed=0.22
+walk speed=0
+run speed=0.5
+skid speed=0.3
+jump speed=0.5
+dead speed=0
+flagslide speed=0.125
+climb speed=0.125
+swim speed=0.5
+paddle speed=0.5
+grow speed=0
+taunt speed=0
+run-fire speed=0.5
+skid-fire speed=0.3
+jump-fire speed=0.5
+climb-fire speed=0.125
+swim-fire speed=0.5
+
+boll top=#fc9838
+boll mid=#d82800
+boll bot=#000000
+
+[lang]
+winspecial=Miku got a Chaos Emerald
+allspecial=Miku got all Chaos Emeralds
+princess=our Princess
+savetext1=Peace is Paved
+savetext2=With Kingdom Saved
+savetext3=Hurrah to Miku
+savetext4=Our Only Hero 
+savetext5=This Ends Your Trip
+savetext6=Of a Long Friendship
