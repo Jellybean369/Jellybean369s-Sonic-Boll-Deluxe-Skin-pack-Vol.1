@@ -1,0 +1,161 @@
+[mystery]
+name=Quby
+
+icon speed=6
+icon loop=yes
+animation speed=1.0
+box width=25
+box height=25
+center x=12
+center y=9
+
+carry offset x=0
+carry offset y=0
+fire duration=8
+victory duration=50
+time until wait=200
+pipe squish=20
+minisheet=false
+sheet splits=0
+sheet split size=0
+costume flight=true
+sonic boom=false
+world clear jingle=true
+alternate between jump sounds=false
+ambient sound loop=false
+kart reving up sound=false
+glimmer effect=false
+walking loop=false
+manual sprite flips=false
+recolorable projectile=false
+
+single sheet=true
+singlesheet split width=8,8,8,8,8,8
+singlesheet split height=0,0,0,0,0,0
+
+custom sprite list=stand,blank1,crouch,blank2,walk,blank3,run,blank4,brake,blank5,jump,blank6,fall,blank7,swim,paddle,blank8,climbing,blank9,flagslide,blank10,lookup,fire,knock,standleft,blank1left,crouchleft,blank2left,walkleft,blank3left,runleft,blank4left,brakeleft,blank5left,jumpleft,blank6left,fallleft,blank7left,swimleft,paddleleft,blank8left,climbingleft,blank9left,flagslideleft,blank10left,lookupleft,fireleft,knockleft,deadleft,pipingup,sidepiping,piping
+
+connect stand=true
+connect blank1=true
+connect crouch=true
+connect blank2=true
+connect walk=true
+connect blank3=true
+connect run=true
+connect blank4=true
+connect brake=true
+connect blank5=true
+connect jump=true
+connect blank6=true
+connect fall=true
+connect blank7=true
+connect swim=true
+connect paddle=true
+connect blank8=true
+connect climbing=true
+connect blank9=true
+connect flagslide=true
+connect blank10=true
+connect lookup=true
+connect fire=true
+connect knock=true
+connect pose=true
+connect blank1left=true
+connect crouchleft=true
+connect blank2left=true
+connect walkleft=true
+connect blank3left=true
+connect runleft=true
+connect blank4left=true
+connect brakeleft=true
+connect blank5left=true
+connect jumpleft=true
+connect blank6left=true
+connect fallleft=true
+connect blank7left=true
+connect swimleft=true
+connect paddleleft=true
+connect blank8left=true
+connect climbingleft=true
+connect blank9left=true
+connect flagslideleft=true
+connect blank10left=true
+connect lookupleft=true
+connect fireleft=true
+connect knockleft=true
+connect poseleft=true
+
+reroute sidepiping=walk
+reroute piping=stand
+reroute pipingup=stand
+reroute pose=lookup
+
+stand frames=1
+lookup frames=1
+crouch frames=1
+dead frames=1
+walk frames=3
+run frames=3
+brake frames=1
+jump frames=1
+fall frames=1
+swim frames=2
+paddle frames=6
+climbing frames=2
+flagslide frames=2
+
+standleft frames=1
+lookupleft frames=1
+crouchleft frames=1
+deadleft frames=1
+walkleft frames=3
+runleft frames=3
+brakeleft frames=1
+jumpleft frames=1
+fallleft frames=1
+swimleft frames=2
+paddleleft frames=6
+climbingleft frames=2
+flagslideleft frames=2
+
+flagslide offset x=-5
+flagslide offset y=0
+stand offset x=0
+stand offset y=0
+
+jumpleft loop=3
+fallleft loop=3
+
+walk speed=0.34
+run speed=0.37
+jump speed=0.1
+fall speed=0.1
+swim speed=0.55
+paddle speed=1.10
+climbing speed= 0.2
+flagslide speed=0.2
+
+walkleft speed=0.34
+runleft speed=0.37
+jumpleft speed=0.1
+fallleft speed=0.1
+swimleft speed=0.55
+paddleleft speed=1.10
+climbingleft speed= 0.2
+flagslideleft speed=0.2
+
+boll top=#EE350F
+boll mid=#EE350F
+boll bot=#EE350F
+
+[lang]
+winspecial=Quby got a Chaos Emerald
+allspecial=Quby got all Chaos Emeralds
+credits=Jellybean369
+princess=our Princess
+savetext1=Peace is Paved
+savetext2=With Kingdom Saved
+savetext3=Hurrah to Quby
+savetext4=Our Only Hero 
+savetext5=This Ends Your Trip
+savetext6=Of a Long Friendship
